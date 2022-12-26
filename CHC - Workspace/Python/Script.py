@@ -7,7 +7,7 @@ keyboard = Controller()
 
 def on_press(key):
     print("Key pressed : {0}".format(key))
-    if("{0}".format(key) == "<97>"):
+    if("{0}".format(key) == "<insérez votre touche>"):
         print("Playing : mon_son.mp3")
         playsound('<insérez votre PATH>')
         print("Played mon_son.mp3")
